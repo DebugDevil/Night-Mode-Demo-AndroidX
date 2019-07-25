@@ -8,7 +8,7 @@
     android:padding="24dp"
     android:orientation="vertical"
     android:background="?attr/backgroundcolor">
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         app:cardBackgroundColor="?attr/cardbackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -32,9 +32,9 @@
 
 
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         app:cardBackgroundColor="?attr/cardbackground"
 
         android:layout_marginTop="8dp"
@@ -77,9 +77,9 @@
 
         </LinearLayout>
 
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         app:cardBackgroundColor="?attr/cardbackground"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -103,6 +103,6 @@
                 android:text="Night Mode"
                 android:textColor="?attr/textcolor"/>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
 </LinearLayout>
